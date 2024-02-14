@@ -1,9 +1,1 @@
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=adsouza&theme=default&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=adsouza&theme=default&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=adsouza&theme=default&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=adsouza&icon=0&color=12)](https://visitcount.itsvg.in)
-
+<div align="center">\n  <img src="https://github-readme-stats.vercel.app/api?username=dsadriel&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />\n  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dsadriel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />\n</div>\n\n###
