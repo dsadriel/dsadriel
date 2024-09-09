@@ -1,6 +1,7 @@
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dsadriel&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dsadriel&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
-</div>
+<h1 align="center">Olá 👋, me chamo Adriel</h1>
+<h3 align="center">Estudante de Ciência da Computação na UFRGS</h3>
 
-###
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dsadriel&theme=dark&show_icons=true&hide_border=true&count_private=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dsadriel&theme=dark&show_icons=true&hide_border=true&layout=compact" height="150" alt="languages graph"  />
+</div>
