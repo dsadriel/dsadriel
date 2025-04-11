@@ -1,2 +1,2 @@
-<h1 align=center>Hi 👋, I'm Adriel</h1>
-<h4 align=center>Computer Science Undergraduate @ UFRGS | Student at Apple Developer Academy @ PUCRS & Eldorado</h4>
+<h1 align=center>👋 Hey there, I'm Adriel</h1>
+<h4 align=center> CS Student @ UFRGS | Apple Developer Academy Fellow</h4>
