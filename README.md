@@ -17,7 +17,7 @@ I build user-centered applications with clean architecture, strong attention to 
   </a>
 
   <!-- Projeto 2 -->
-  <a href="[https://dsadriel.notion.site/Profitto-284ab1b50415802bae1efeaf470bfffe?pvs=74](https://www.linkedin.com/posts/brunamarschner_profitto-tecnopucexperience-appledeveloperacademy-ugcPost-7393094437121380352-2UC7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACXDuuIBg4ZHfPmoOM9G_KmBoa3PnjI1YX4)">
+  <a href="https://www.linkedin.com/posts/brunamarschner_profitto-tecnopucexperience-appledeveloperacademy-ugcPost-7393094437121380352-2UC7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACXDuuIBg4ZHfPmoOM9G_KmBoa3PnjI1YX4">
     <img width="42%" alt="image" src="https://github.com/user-attachments/assets/ff6ca54e-4563-4609-a579-dc3a88394350" />
 
   </a>
