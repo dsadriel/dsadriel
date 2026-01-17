@@ -7,30 +7,23 @@ I build user-centered applications with clean architecture, strong attention to 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let’s%20Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dsadriel)
 
 ---
-### Featured Projects
+### Latest Projects
 
 <p align="center">
   <!-- Projeto 1 -->
-  <a href="https://dsadriel.notion.site/Profitto-284ab1b50415802bae1efeaf470bfffe?pvs=74">
-    <img
-      src="https://github.com/user-attachments/assets/c68e65f2-fe1a-4964-ac17-565952f46be7"
-      width="39%"
-    />
+  <a href="https://www.linkedin.com/posts/antoniocosta001_dopamine-news-ugcPost-7407480650582274048-u0rV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACXDuuIBg4ZHfPmoOM9G_KmBoa3PnjI1YX4">
+  <img width="42%" alt="image" src="https://github.com/user-attachments/assets/dd76fc5c-2d32-42cd-9fa6-333e796f3b44" />
+
   </a>
 
   <!-- Projeto 2 -->
-  <a href="[LINK_DO_PROJETO_2](https://dsadriel.notion.site/Memorelo-245ab1b5041580c2b451f7c08de8f0e7)">
-    <img
-   src="https://github.com/user-attachments/assets/11d0c291-d454-4490-b1a2-b1e260aec88c" 
-      width="39%"
-    />
+  <a href="[https://dsadriel.notion.site/Profitto-284ab1b50415802bae1efeaf470bfffe?pvs=74](https://www.linkedin.com/posts/brunamarschner_profitto-tecnopucexperience-appledeveloperacademy-ugcPost-7393094437121380352-2UC7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACXDuuIBg4ZHfPmoOM9G_KmBoa3PnjI1YX4)">
+    <img width="42%" alt="image" src="https://github.com/user-attachments/assets/ff6ca54e-4563-4609-a579-dc3a88394350" />
+
   </a>
 
   <!-- Botão de ação -->
   <a href="https://dsadriel.notion.site/portfolio">
-          <img src="https://github.com/user-attachments/assets/dc31e6bf-60cd-4f87-ad4e-6f4ec93aed9f"
-                  width="11.7%"
-/>
-
+      <img width="15%" alt="image" src="https://github.com/user-attachments/assets/567a5365-842d-4bcf-ace7-ae6ca607a0aa" />
   </a>
 </p>
