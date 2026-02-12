@@ -11,13 +11,11 @@ I build user-centered applications with clean architecture, strong attention to 
 
 <p align="center">
 
-    <!-- Projeto 2 -->
   <a href="https://nook416.dsadriel.com.br">
 <img width="42%" a alt="image" src="https://github.com/user-attachments/assets/c98b6195-1c0c-4035-97f6-89527dffbf27" />
 
   </a>
   
-  <!-- Projeto 1 -->
   <a href="https://dsadriel.github.io/portfolio/project/?name=Dopamine%20News">
   <img width="42%" alt="image" src="https://github.com/user-attachments/assets/dd76fc5c-2d32-42cd-9fa6-333e796f3b44" />
 
