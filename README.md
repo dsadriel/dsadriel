@@ -10,20 +10,23 @@ I build user-centered applications with clean architecture, strong attention to 
 ### Latest Projects
 
 <p align="center">
+
+    <!-- Projeto 2 -->
+  <a href="https://nook416.dsadriel.com.br">
+<img width="42%" a alt="image" src="https://github.com/user-attachments/assets/c98b6195-1c0c-4035-97f6-89527dffbf27" />
+
+  </a>
+  
   <!-- Projeto 1 -->
-  <a href="https://www.linkedin.com/posts/antoniocosta001_dopamine-news-ugcPost-7407480650582274048-u0rV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACXDuuIBg4ZHfPmoOM9G_KmBoa3PnjI1YX4">
+  <a href="https://dsadriel.github.io/portfolio/project/?name=Dopamine%20News">
   <img width="42%" alt="image" src="https://github.com/user-attachments/assets/dd76fc5c-2d32-42cd-9fa6-333e796f3b44" />
 
   </a>
 
-  <!-- Projeto 2 -->
-  <a href="https://www.linkedin.com/posts/brunamarschner_profitto-tecnopucexperience-appledeveloperacademy-ugcPost-7393094437121380352-2UC7?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACXDuuIBg4ZHfPmoOM9G_KmBoa3PnjI1YX4">
-    <img width="42%" alt="image" src="https://github.com/user-attachments/assets/ff6ca54e-4563-4609-a579-dc3a88394350" />
 
-  </a>
 
   <!-- Botão de ação -->
-  <a href="https://dsadriel.notion.site/portfolio">
+  <a href="https://dsadriel.github.io/portfolio">
       <img width="15%" alt="image" src="https://github.com/user-attachments/assets/567a5365-842d-4bcf-ace7-ae6ca607a0aa" />
   </a>
 </p>
