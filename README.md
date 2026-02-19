@@ -11,7 +11,7 @@ I build user-centered applications with clean architecture, strong attention to 
 
 <p align="center">
 
-  <a href="https://nook416.dsadriel.com.br">
+  <a href="https://dsadriel.github.io/portfolio/project/?name=Nook416">
 <img width="42%" a alt="image" src="https://github.com/user-attachments/assets/c98b6195-1c0c-4035-97f6-89527dffbf27" />
 
   </a>
