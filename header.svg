@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#010409" />
+    </linearGradient>
+
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.10)" />
+      <stop offset="100%" stop-color="rgba(56, 189, 248, 0)" />
+    </radialGradient>
+    
+    <style>
+      @keyframes fadein {
+        from { opacity: 0; transform: translateY(15px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        fill: #F8FAFC;
+      }
+      
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        fill: #8B949E;
+        opacity: 0;
+      }
+
+      .text-highlight {
+        fill: #F8FAFC;
+      }
+      
+      .anim-delay-1 { animation: fadein 1s ease-out 1.2s forwards; }
+      .anim-delay-2 { animation: fadein 1s ease-out 1.5s forwards; }
+      .anim-delay-3 { animation: fadein 1s ease-out 1.8s forwards; }
+    </style>
+
+    <clipPath id="typing-mask">
+      <rect x="0" y="-50" width="0" height="70">
+        <animate attributeName="width" from="0" to="350" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)" rx="10" ry="10" />
+  <circle cx="150" cy="50" r="250" fill="url(#glow1)" />
+
+  <g transform="translate(50, 110)">
+    
+    <text class="title" x="0" y="0" clip-path="url(#typing-mask)">
+      Hi, I'm Adriel 👋
+    </text>
+    
+    <rect x="0" y="-35" width="4" height="40" rx="2" fill="#8B949E">
+      <animate attributeName="x" from="0" to="340" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" />
+      <animate attributeName="opacity" values="1;0" dur="0.8s" repeatCount="3" />
+      <set attributeName="opacity" to="0" begin="2.4s" fill="freeze" />
+    </rect>
+
+    <text class="subtitle anim-delay-1" x="0" y="45">
+      I’m a <tspan font-weight="600" fill="#F8FAFC">Computer Science undergraduate at UFRGS</tspan> and an <tspan font-weight="600" fill="#F8FAFC">iOS Developer</tspan>
+    </text>
+    <text class="subtitle anim-delay-2" x="0" y="70">
+      at the <tspan font-weight="600" fill="#F8FAFC">Apple Developer Academy Porto Alegre</tspan>.
+    </text>
+    <text class="subtitle anim-delay-3" x="0" y="95">
+      I build user-centered applications with clean architecture, strong attention
+    </text>
+    <text class="subtitle anim-delay-3" x="0" y="120">
+      to design, and solid engineering practices.
+    </text>
+  </g>
+</svg>
