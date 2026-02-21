@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" width="800" height="100">
+  <defs>
+    <style>
+      @keyframes slidein { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .title { font-size: 18px; font-weight: 600; fill: #F8FAFC; }
+      .desc { font-size: 15px; font-weight: 400; fill: #8B949E; }
+      .date { font-size: 14px; font-weight: 400; fill: #8B949E; }
+      .anim-slide { animation: slidein 0.5s ease-out forwards; }
+    </style>
+    
+    <clipPath id="icon-clip">
+      <rect x="40" y="20" width="60" height="60" rx="16" />
+    </clipPath>
+  </defs>
+
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <g class="anim-slide">
+    <image x="40" y="20" width="60" height="60" 
+           href="data:image/png;base64,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" 
+           clip-path="url(#icon-clip)" 
+           preserveAspectRatio="xMidYMid slice" />
+    
+    <rect x="40" y="20" width="60" height="60" rx="16" fill="none" stroke="#30363d" stroke-width="1" />
+    
+    <text x="120" y="44" class="title">Nook416</text>
+    <text x="120" y="68" class="desc">Multiplatform Group Expense Management Made Simple</text>
+    <text x="760" y="56" class="date" text-anchor="end">jan/2026</text>
+
+    <line x1="40" y1="99" x2="760" y2="99" stroke="#21262d" stroke-width="1" />
+  </g>
+</svg>
