@@ -1,78 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#010409" />
-    </linearGradient>
-
-    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.10)" />
-      <stop offset="100%" stop-color="rgba(56, 189, 248, 0)" />
-    </radialGradient>
-    
     <style>
-      @keyframes fadein {
-        from { opacity: 0; transform: translateY(15px); }
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&amp;family=DM+Sans:wght@400;500;600&amp;display=swap');
+      
+      .bg { fill: #121212; }
+      
+      .title { 
+        font-family: 'Syne', -apple-system, sans-serif; 
+        font-weight: 800; 
+        font-size: 72px; 
+        fill: #FFFFFF; 
+        letter-spacing: -2px; 
+      }
+      .accent { fill: #5A9BF5; }
+      
+      .subtitle { 
+        font-family: 'DM Sans', -apple-system, sans-serif; 
+        font-weight: 600; 
+        font-size: 18px; 
+        fill: #FFFFFF; 
+        letter-spacing: 0.05em; 
+      }
+      
+      .desc { 
+        font-family: 'DM Sans', -apple-system, sans-serif; 
+        font-size: 16px; 
+        fill: rgba(255, 255, 255, 0.75); 
+      }
+
+      /* Animations */
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
         to { opacity: 1; transform: translateY(0); }
       }
-      
-      .title {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        font-size: 42px;
-        font-weight: 800;
-        fill: #F8FAFC;
-      }
-      
-      .subtitle {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        fill: #8B949E;
-        opacity: 0;
+
+      @keyframes drawLine {
+        from { stroke-dashoffset: 800; }
+        to { stroke-dashoffset: 0; }
       }
 
-      .text-highlight {
-        fill: #F8FAFC;
+      .anim-line {
+        stroke-dasharray: 800;
+        stroke-dashoffset: 800;
+        animation: drawLine 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
       }
-      
-      .anim-delay-1 { animation: fadein 1s ease-out 1.2s forwards; }
-      .anim-delay-2 { animation: fadein 1s ease-out 1.5s forwards; }
-      .anim-delay-3 { animation: fadein 1s ease-out 1.8s forwards; }
+
+      .anim-text-1 { opacity: 0; animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards; }
+      .anim-text-2 { opacity: 0; animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards; }
+      .anim-text-3 { opacity: 0; animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.55s forwards; }
+      .anim-text-4 { opacity: 0; animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.65s forwards; }
     </style>
-
-    <clipPath id="typing-mask">
-      <rect x="0" y="-50" width="0" height="70">
-        <animate attributeName="width" from="0" to="350" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" />
-      </rect>
-    </clipPath>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#bg)" rx="10" ry="10" />
-  <circle cx="150" cy="50" r="250" fill="url(#glow1)" />
+  <rect width="100%" height="100%" class="bg" />
 
-  <g transform="translate(50, 110)">
-    
-    <text class="title" x="0" y="0" clip-path="url(#typing-mask)">
-      Hi, I'm Adriel 👋
-    </text>
-    
-    <rect x="0" y="-35" width="4" height="40" rx="2" fill="#8B949E">
-      <animate attributeName="x" from="0" to="340" dur="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" />
-      <animate attributeName="opacity" values="1;0" dur="0.8s" repeatCount="3" />
-      <set attributeName="opacity" to="0" begin="2.4s" fill="freeze" />
-    </rect>
+  <line x1="0" y1="24" x2="800" y2="24" stroke="#242424" stroke-width="1" class="anim-line" />
+  <line x1="0" y1="276" x2="800" y2="276" stroke="#242424" stroke-width="1" class="anim-line" />
 
-    <text class="subtitle anim-delay-1" x="0" y="45">
-      I’m a <tspan font-weight="600" fill="#F8FAFC">Computer Science undergraduate at UFRGS</tspan> and an <tspan font-weight="600" fill="#F8FAFC">iOS Developer</tspan>
-    </text>
-    <text class="subtitle anim-delay-2" x="0" y="70">
-      at the <tspan font-weight="600" fill="#F8FAFC">Apple Developer Academy Porto Alegre</tspan>.
-    </text>
-    <text class="subtitle anim-delay-3" x="0" y="95">
-      I build user-centered applications with clean architecture, strong attention
-    </text>
-    <text class="subtitle anim-delay-3" x="0" y="120">
-      to design, and solid engineering practices.
-    </text>
+  <g transform="translate(64, 115)">
+    
+    <g class="anim-text-1">
+      <text x="0" y="0" class="title">adriel<tspan class="accent">.</tspan></text>
+    </g>
+
+    <g class="anim-text-2">
+      <rect x="4" y="35" width="28" height="4" rx="2" class="accent" />
+      <text x="44" y="44" class="subtitle">iOS developer @ Apple Academy</text>
+    </g>
+
+    <g class="anim-text-3">
+      <text x="4" y="88" class="desc">Developer based in Porto Alegre, studying Computer Science at UFRGS.</text>
+    </g>
+    <g class="anim-text-4">
+      <text x="4" y="114" class="desc">I build apps and tools aiming to make life simpler and more enjoyable.</text>
+    </g>
+    
   </g>
+
 </svg>
