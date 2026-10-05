@@ -9,58 +9,45 @@ $ curl -s https://dsadriel.github.io/profile.json
   "location": "Porto Alegre, Brazil",
   "education": "B.Sc. Computer Science @ UFRGS",
   "techStack": {
-    "languages": [
-      "Swift",
-      "Dart",
-      "Python",
-      "C++",
-      "Java",
-      "JavaScript",
-      "SQL",
-      "HTML5 / CSS3"
-    ],
-    "frameworks": [
-      "SwiftUI",
-      "UIKit",
-      "visionOS",
-      "TCA",
-      "Flutter",
-      "Vapor",
-      "Tailwind CSS"
-    ],
-    "databases": [
-      "SwiftData",
-      "Core Data",
-      "CloudKit",
-      "PostgreSQL",
-      "Firebase",
-      "Docker",
-      "WebSockets"
-    ]
+    "languages": ["Swift", "Dart", "Python", "C++", "Java", "JavaScript", "SQL", "HTML5 / CSS3"],
+    "frameworks": ["SwiftUI", "UIKit", "visionOS", "TCA", "Flutter", "Vapor", "Tailwind CSS"],
+    "databases": ["SwiftData", "Core Data", "CloudKit", "PostgreSQL", "Firebase", "Docker", "WebSockets"]
   },
   "featuredProjects": [
     {
       "name": "PontoFácil",
+      "description": "Turn Any Photo Into a Beautiful Cross-Stitch Pattern in Seconds",
+      "techStack": ["SwiftUI", "Vision", "Shortcuts"],
       "url": "https://dsadriel.github.io/portfolio/#/project/pontof%C3%A1cil"
     },
     {
       "name": "Tchê Alimenta",
+      "description": "Essential App for the UFRGS Community to Check RU Meal Tickets and Daily Menus",
+      "techStack": ["Flutter", "Dart", "Web Scraping"],
       "url": "https://dsadriel.github.io/portfolio/#/project/tche-alimenta"
     },
     {
       "name": "Grafittone",
+      "description": "Paint Sound in 3D Space with Apple Vision Pro",
+      "techStack": ["SwiftUI", "RealityKit", "AVFoundation"],
       "url": "https://dsadriel.github.io/portfolio/#/project/grafittone"
     },
     {
       "name": "Build Together",
+      "description": "Real-Time Agile Collaboration for iOS and macOS",
+      "techStack": ["Swift", "SwiftUI", "Vapor"],
       "url": "https://dsadriel.github.io/portfolio/#/project/build-together"
     },
     {
       "name": "WildSet",
+      "description": "Learning Set Theory Through Nature Conservation",
+      "techStack": ["SwiftUI", "Swift Concurrency", "AVFoundation"],
       "url": "https://dsadriel.github.io/portfolio/#/project/wildset"
     },
     {
       "name": "Nook416",
+      "description": "Multiplatform Group Expense Management Made Simple",
+      "techStack": ["Flutter", "Firebase", "Dart"],
       "url": "https://dsadriel.github.io/portfolio/#/project/nook416"
     }
   ],
@@ -75,23 +62,7 @@ $ curl -s https://dsadriel.github.io/profile.json
 
 ### Connect & Links
 
-<p align="left">
-  <a href="https://dsadriel.github.io/portfolio">
-    <img src="https://img.shields.io/badge/Portfolio-dsadriel.github.io%2Fportfolio-black?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/dsadriel">
-    <img src="https://img.shields.io/badge/LinkedIn-Adriel%20de%20Souza-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:contato@dsadriel.com.br">
-    <img src="https://img.shields.io/badge/Email-contato%40dsadriel.com.br-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/dsadriel">
-    <img src="https://img.shields.io/badge/GitHub-dsadriel-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
-
-<div align="center">
-  <a href="https://dsadriel.github.io/portfolio/#work">
-    <img src="https://dsadriel.github.io/portfolio/selected-projects.png" alt="Latest work" width="100%" />
-  </a>
-</div>
+- **Portfolio:** [dsadriel.github.io/portfolio](https://dsadriel.github.io/portfolio)
+- **LinkedIn:** [linkedin.com/in/dsadriel](https://linkedin.com/in/dsadriel)
+- **Email:** [contato@dsadriel.com.br](mailto:contato@dsadriel.com.br)
+- **GitHub:** [github.com/dsadriel](https://github.com/dsadriel)
