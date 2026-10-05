@@ -1,6 +1,4 @@
-```bash
-$ curl -s https://dsadriel.github.io/profile.json
-```
+> curl -s https://dsadriel.github.io/profile.json
 
 ```json
 {
